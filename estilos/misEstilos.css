@@ -1,0 +1,167 @@
+.jumbotron{
+    background-image: url(../imagenes/banner/banner5.jpg);
+    height: 280px;
+    border-bottom: 2px solid yellow;
+   color: #ffff00;
+    
+}
+.titulo{
+     font-family:fuente2;
+    color: #ffff00;
+}
+
+body{
+    background: linear-gradient(to left, #666666 0%, #000000 60%);
+
+    margin-left: 1px;
+    list-style-type: none;
+}
+.marcas{
+    border-radius: 8px;
+    margin-left: 0px;
+}
+ .marcas ul li{
+    height: 40px;
+    background-color: #1a1a00;
+    margin-left: 1px;
+     list-style-type: none;
+     
+}
+
+
+.marca{
+    display: block;
+    background-color: #000000;
+   border-top: 1px solid black;
+    margin-left: 0px;
+    height:80px;
+    text-decoration: none;
+    font-family: Dhurjati;
+    font-size: 2em;
+    color: #ffff00
+;
+    border-radius: 3px;
+    
+}
+.marca:hover{
+    background-color: #ffff00
+;
+    text-decoration: none;
+    color:black;
+    font-size: 2.5em;
+    animation-name: aniLista;
+    animation-duration: 0.6s;
+    cursor: pointer;
+    
+    
+}
+.marca li a:hover{
+    border-left: 3px solid red;
+    
+    
+}
+.marca:active{
+    background-color: #9fdfbf;
+    text-decoration: none;
+    color:black;
+}
+
+
+.mod{
+    background-color: 	#9fdfbf;
+    padding: 0;
+    margin: 0px;
+    text-decoration: none;
+    font-family: Sarala;
+    color: black;
+    display: none;
+    cursor:pointer;
+    font-size: 1.3em;
+}
+.mod ul li{
+    background-color: 	#9fdfbf;
+    
+    
+}
+.mod  a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+mod a:hover{
+    background-color: black;
+    
+    
+}
+.elem{
+    border-color: #9fdfbf;
+    background-color: rgba(76, 175, 80, 0.1);
+}
+.portada{
+    background-color: #9fdfbf;
+    font-family: Faster One;
+    font-size: 3em;
+    color: black;
+}
+.portArtic{
+    color: black;
+    background-color: yellow;
+    font-family: Dhurjati;
+    font-size: 2em;
+}
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+.modal-content{
+    width: 100%;
+    background-color: rgba(26, 26, 26, 0.5);
+    border-color: #9fdfbf;
+    margin-top: 50px;
+    color:yellow;
+}
+.modal-content:hover{
+    background-color: rgba(26, 26, 26, 0.9);
+}
+.modal-content button{
+    background-color: yellow;
+    border-color: #9fdfbf;
+}
+.modal-content button:hover{
+    background-color: #9fdfbf;
+    border-color: yellow;
+}
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+    
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+
+
+
+@keyframes aniLista {
+    0%   {background-color:black; font-size: 2em;}
+    25%  {background-color:#333300; font-size: 2.1em;}
+    50%  {background-color:#808000; font-size: 2.2em;}
+    75%  {background-color:#cccc00; font-size: 2.4em;}
+    100% {background-color:#ffff00; font-size: 2.5em;}
+}
+@font-face{
+    font-family:fuente2;
+	src: url(Fuentes/road_rage/Road_Rage.otf);}
+@font-face{
+    font-family:fuente1;
+	src: url(Fuentes/prototype/Protoype.ttf);}
